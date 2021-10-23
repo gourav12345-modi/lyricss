@@ -1,8 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
-First, run the development server:
+- First create .env.local file in root folder and add api key (if you don't have api key you can get it from https://developer.musixmatch.com/). .env.local should look like
+```bash
+API_KEY = Your_Api_key_Here
+```
+- run the development server:
 
 ```bash
 npm run dev
